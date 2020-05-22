@@ -1,0 +1,15 @@
+#FIBONACCI
+#0,1,1,2,3,5
+first=0
+second=1
+nexterm=0
+print(first)
+print(second)
+while(True):
+    nexterm=first+second
+    if(nexterm>1000):
+        break
+    print(nexterm)
+    first=second
+    second=nexterm
+#finish
